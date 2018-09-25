@@ -152,13 +152,13 @@ For example, say a device has three compliance policies assigned to it: one Unkn
 ## Ways to use device compliance policies
 
 #### With conditional access
-For devices that comply to policy rules, you can give those devices access to email and other corporate resources. If the devices don't comply to policy rules, then they don't get access to corporate resources. This is conditional access.
+For devices that comply to policy rules, you can give those devices access to email and other corporate resources. If the devices don't comply to policy rules or fail to evaluate and report its compliance status to Intune at least once every 7 days, then they don't get access to corporate resources. This is conditional access.
 
 #### Without conditional access
 You can also use device compliance policies without any conditional access. When you use compliance policies independently, the targeted devices are evaluated and reported with their compliance status. For example, you can get a report on how many devices are not encrypted, or which devices are jail-broken or rooted. When you use compliance policies without conditional access, there are no access restrictions to company resources.
 
 ## Ways to deploy device compliance policies
-You can deploy compliance policy to users in user groups or devices in device groups. When a compliance policy is deployed to a user, all of the user's devices are checked for compliance.
+You can deploy compliance policy to users in user groups or devices in device groups. When a compliance policy is deployed to a user, all of the user's devices are checked for compliance. For WIndows 10 1803+ devices that are automatically MDM enrolled we recommend deploying to device groups if the primary user didn't enroll the device to aid in Compliance reporting
 
 The **Compliance policy settings** (Azure portal > Device compliance) include:
 
