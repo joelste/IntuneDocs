@@ -99,4 +99,4 @@ If the user already configured an email account, then the email profile is assig
 If you make changes to an email profile you previously assigned, end users may see a message asking them to approve the reconfiguration of their email settings.
 
 ## Next steps
-Once the profile is created, it isn't doing anything yet. Next, [assign the profile to somce devices](device-profile-assign.md).
+Once the profile is created, it isn't doing anything yet. Next, [assign the profile to somce devices](device-profile-assign.md). We recommend deploying the email profile to user groups.
